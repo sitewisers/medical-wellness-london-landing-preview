@@ -36,7 +36,8 @@
     header{position:sticky;top:0;z-index:50;background:rgba(255,253,249,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(34,32,29,.08)}
     .nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
     .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-    .brand-mark{width:42px;height:42px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;font-family:Georgia,serif;font-size:14px;letter-spacing:-3px;padding-right:3px}
+    .brand-mark{width:42px;height:42px;border:1.5px solid var(--gold);border-radius:50%;overflow:hidden;display:block;flex:none}
+    .brand-mark img{width:100%;height:100%;object-fit:cover;display:block}
     .brand-text{font-size:12px;letter-spacing:.16em;line-height:1.15;font-weight:700}
     .brand-text span{display:block;font-size:8px;letter-spacing:.34em;color:var(--gold-dark);margin-top:3px}
     nav{display:flex;gap:28px;font-size:.88rem}
@@ -78,7 +79,7 @@
     .service p{font-size:.86rem;margin:0}
     .feature{background:var(--cream)}
     .feature-grid{display:grid;grid-template-columns:1fr 1fr;min-height:480px}
-    .feature-photo{background:url("https://medicalwellnesslondon.com/_astro/hero.BWJangKi_1TMuYa.webp") center 40%/cover no-repeat;min-height:480px}
+    .feature-photo{background:url("https://medicalwellnesslondon.com/_astro/clinic.CXXpt3aT_1Cxhju.webp") center 30%/cover no-repeat;min-height:480px}
     .feature-copy{display:flex;align-items:center;padding:65px}
     .steps{background:#fff}
     .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:45px}
@@ -159,7 +160,7 @@
   <header>
     <div class="container nav">
       <a class="brand" href="#top" aria-label="Medical Wellness London">
-        <span class="brand-mark">M W</span>
+        <span class="brand-mark"><img src="https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_PX7pE.webp" srcset="https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_PX7pE.webp 1x, https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_ZxQlxL.webp 2x" alt="" width="42" height="42"></span>
         <span class="brand-text">MEDICAL WELLNESS<span>LONDON</span></span>
       </a>
       <nav aria-label="Primary">
@@ -225,7 +226,7 @@
 
     <section class="feature">
       <div class="feature-grid">
-        <div class="feature-photo" role="img" aria-label="Medical Wellness London clinic"></div>
+        <div class="feature-photo" role="img" aria-label="Waiting area at Medical Wellness London"></div>
         <div class="feature-copy">
           <div>
             <div class="eyebrow">Same-day appointments</div>
@@ -356,7 +357,7 @@
     <div class="container">
       <div class="footer-row">
         <a class="brand" href="#top">
-          <span class="brand-mark" style="color:#fff;border-color:#b08a4a">M W</span>
+          <span class="brand-mark" style="border-color:#b08a4a"><img src="https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_PX7pE.webp" srcset="https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_PX7pE.webp 1x, https://medicalwellnesslondon.com/_astro/mark.DIlmJhsW_ZxQlxL.webp 2x" alt="" width="42" height="42"></span>
           <span class="brand-text" style="color:#fff">MEDICAL WELLNESS<span style="color:#b08a4a">LONDON</span></span>
         </a>
         <div>61 Mansell Street, London E1 8AN · <a href="tel:+442046367333">020 4636 7333</a></div>
