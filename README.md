@@ -12,6 +12,13 @@ form endpoint, not on the clinic's domain, and not the version to run ads agains
 - The location section used a decorative CSS "map placeholder" div (literally labelled as
   such in the markup). Replaced it with a real embedded Google Map for 61 Mansell Street,
   London E1 8AN, matching the existing container styling.
+- The header/footer used a text-drawn "M W" placeholder instead of a logo. Replaced it with
+  the clinic's real circular brand mark, pulled from the live site.
+- The "Need to See a GP Today?" section reused the exact same reception photo as the hero.
+  Replaced it with a different real clinic photo, then swapped that again for a generic,
+  unbranded stock photo (Unsplash, free-to-use license, no attribution required) of a doctor
+  with a stethoscope — it isn't a real photo of this clinic, so replace it with the clinic's
+  own photography before real launch if a genuine photo is preferred.
 
 ## What was improved
 - Uses a clean Medical Wellness London-style warm cream / neutral / gold visual system.
