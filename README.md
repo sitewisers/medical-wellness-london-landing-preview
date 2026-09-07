@@ -1,4 +1,4 @@
-# Medical Wellness London — Private GP Google Ads Landing Page
+# Medical Wellness London: Private GP Google Ads Landing Page
 
 **Status: CLIENT PREVIEW ONLY.** Hosted on GitHub Pages for review. Not connected to a live
 form endpoint, not on the clinic's domain, and not the version to run ads against.
@@ -7,7 +7,7 @@ form endpoint, not on the clinic's domain, and not the version to run ads agains
 - The lead form pointed to a placeholder action (`/YOUR_APPROVED_FORM_ENDPOINT`) that would
   have 404'd on submit. It now redirects to `thank-you.html` on submit so the flow is
   demonstrable, without sending data anywhere. See the comments around the `<form>` and the
-  bottom `<script>` in `index.html` — remove the preview redirect and wire in the real
+  bottom `<script>` in `index.html`: remove the preview redirect and wire in the real
   endpoint before launch.
 - The location section used a decorative CSS "map placeholder" div (literally labelled as
   such in the markup). Replaced it with a real embedded Google Map for 61 Mansell Street,
@@ -17,7 +17,7 @@ form endpoint, not on the clinic's domain, and not the version to run ads agains
 - The "Need to See a GP Today?" section reused the exact same reception photo as the hero.
   Replaced it with a different real clinic photo, then swapped that again for a generic,
   unbranded stock photo (Unsplash, free-to-use license, no attribution required) of a doctor
-  with a stethoscope — it isn't a real photo of this clinic, so replace it with the clinic's
+  with a stethoscope. It isn't a real photo of this clinic, so replace it with the clinic's
   own photography before real launch if a genuine photo is preferred.
 
 ## What was improved
