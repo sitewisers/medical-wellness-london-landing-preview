@@ -23,7 +23,7 @@ form endpoint, not on the clinic's domain, and not the version to run ads agains
 ## What was improved
 - Uses a clean Medical Wellness London-style warm cream / neutral / gold visual system.
 - Removed the artificial-looking MW logo mark and uses a restrained text wordmark.
-- Hero is focused on Private GP + Aldgate + same-day availability subject to availability.
+- Hero is focused on Private GP + Aldgate + same day availability subject to availability.
 - Uses verified current clinic information from the live site.
 - Primary CTA goes to the clinic's current GP booking system.
 - Added a short secondary "Request an Appointment" lead form.
@@ -58,4 +58,4 @@ Also:
 - GMC-registered doctors
 - 2 minutes from Aldgate station
 - GP booking URL: https://online-booking.semble.io/?token=5181436fdee48fb45b10f6ea0210b040390aa8a6
-- Same-day appointments: client-confirmed, subject to availability
+- Same day appointments: client-confirmed, subject to availability
